@@ -80,11 +80,11 @@ const contactUsEmailFormate = (name, email, company, projectIdea, phone) => {
             <div class="container">
                 <h2>Contact Form Submission</h2>
                 <p><span class="highlight">Name:</span> ${name}</p>
-                <p><span class="highlight">Company:</span> ${company}</p>
+                <p><span class="highlight">Cource Name:</span> ${company}</p>
                 <p><span class="highlight">Email:</span> ${email}</p>
-                <p><span class="highlight">Number:</span> ${phone}</p>
+                <p><span class="highlight">Contact Number:</span> ${phone}</p>
                 <div class="divider"></div>
-                <p><span class="highlight">Request Query:</span></p>
+                <p><span class="highlight">Message:</span></p>
                 <p>${projectIdea}</p>
             </div>
         </body>
